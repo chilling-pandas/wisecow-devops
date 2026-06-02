@@ -27,3 +27,6 @@ Deploy the wisecow application as a k8s app
 2. Github repo with corresponding github action.
 3. Github repo should be kept private and the access should be enabled for following github IDs: nyrahul
 "test" 
+CI implemented completely using GitHub Actions.
+CD can be extended by adding kubectl deployment steps
+using a kubeconfig secret and updating the deployment image.
